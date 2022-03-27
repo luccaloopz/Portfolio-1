@@ -24,6 +24,10 @@ h2 {
     font-size: 60px;
 }
 
+#picture-and-description p:last-child {
+    padding-top: 15px;
+}
+
 #about-me p {
     display: flex;
     flex-direction: column;
