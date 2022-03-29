@@ -8,8 +8,20 @@ nav {
     align-items: center;
 }
 
-a {
-    padding: 5px;
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pictures {
+    flex: 20%;
+    max-width: 20%;
 }
 
 h1 {
@@ -17,15 +29,38 @@ h1 {
 }
 
 h2 {
-    text-align: center;
     border-bottom: 2px solid maroon;
     font-family:'Courier New', Courier, monospace;
     font-weight: bolder;
     font-size: 60px;
+    padding-left: 20px;
 }
 
-#picture-and-description p:last-child {
-    padding-top: 15px;
+#third-section {
+    margin-bottom: 100px;
+}
+
+#third-section h2 {
+    margin-bottom: 0;
+}
+
+#picture-and-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+#description {
+    display: flex;
+    margin-left: 20px;
+}
+
+#description p {
+    justify-content: center;
+    font-size: larger;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #about-me p {
@@ -39,4 +74,47 @@ h2 {
     display: flex;
     justify-content: space-around;
     margin-right: 4%;
+}
+
+@media screen and (max-width: 992px) {
+    .pictures {
+        display: flex;
+        flex-direction: column;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pictures {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .image:last-child {
+        flex-direction: column;
+    }
+
+    .pictures img {
+        width: 50%;
+    }
+
+    a img {
+        margin-left: 25%;
+    }
+
+    #picture-and-description {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #description p {
+        margin-left: 0;
+    }
+
+    #contact-me {
+        display: block;
+        text-align: center;
+    }
+
 }
