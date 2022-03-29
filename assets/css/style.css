@@ -8,6 +8,10 @@ nav {
     align-items: center;
 }
 
+nav a {
+    padding: 5px;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -15,13 +19,27 @@ main {
 
 #images {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .pictures {
-    flex: 20%;
-    max-width: 20%;
+    max-height: min-content;
+}
+
+.double {
+    display: flex;
+    flex-direction: row;
+}
+
+#more {
+    width: 75%;
+    max-height: 50%;
+}
+
+a img {
+    border: 3px solid rgb(177, 63, 63);
 }
 
 h1 {
@@ -77,26 +95,14 @@ h2 {
 }
 
 @media screen and (max-width: 992px) {
-    .pictures {
-        display: flex;
-        flex-direction: column;
-        flex: 50%;
-        max-width: 50%;
-    }
+
 }
 
 @media screen and (max-width: 768px) {
-    .pictures {
-        flex: 100%;
-        max-width: 100%;
-    }
-
-    .image:last-child {
+    #images {
+        display: flex;
         flex-direction: column;
-    }
-
-    .pictures img {
-        width: 50%;
+        max-width: 100%;
     }
 
     a img {
