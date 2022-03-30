@@ -10,6 +10,12 @@ header {
     border: 5px solid rgb(177, 63, 63);
 }
 
+footer {
+    background-color: teal;
+    margin: 0;
+    border: 5px solid rgb(177, 63, 63);
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -37,6 +43,66 @@ main {
 
 #more {
     height: 98.5%;
+}
+
+.imgcontainer {
+    position: relative;
+}
+
+.imgtitle1 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: aliceblue;
+    border: 5px solid rgb(177, 63, 63);
+    border-radius: 20px;
+    background-color: teal;
+    text-align: center;
+    font-size: larger;
+}
+.imgtitle2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: aliceblue;
+    border: 5px solid rgb(177, 63, 63);
+    border-radius: 20px;
+    background-color: teal;
+    text-align: center;
+    font-size: larger;
+}
+.imgtitle3 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: aliceblue;
+    border: 5px solid rgb(177, 63, 63);
+    border-radius: 20px;
+    background-color: teal;
+    text-align: center;
+    font-size: larger;
+}
+.imgtitle4 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: aliceblue;
+    border: 5px solid rgb(177, 63, 63);
+    border-radius: 20px;
+    background-color: teal;
+    text-align: center;
+    font-size: larger;
+}
+.imgtitle5 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: aliceblue;
+    border: 5px solid rgb(177, 63, 63);
+    border-radius: 20px;
+    background-color: teal;
+    text-align: center;
+    font-size: larger;
 }
 
 .pictures {
@@ -68,6 +134,12 @@ h2 {
     font-weight: bolder;
     font-size: 60px;
     padding-left: 20px;
+}
+
+#footer h1 {
+    margin: 0;
+    text-align: center;
+    padding: 2%;
 }
 
 #third-section {
@@ -142,9 +214,16 @@ h2 {
 
     #images {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         flex-direction: column;
-        margin: 10% 10%;
+        margin-bottom: 200px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #more1 {
+        display: flex;
+        justify-content: center;
     }
 
     #picture-and-description {
