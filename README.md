@@ -1,5 +1,9 @@
 # Portfolio-1
 
+## **Deployed Link**
+
+Please click on the following link to be navigated to the portfolio: https://luccaloopz.github.io/Portfolio-1/
+
 ## **Description**
 
 The purpose of this homework was to create a portfolio of my coding projects. The site includes an "About Me" section where the visitor will find a picture of myself as well as a small blurb describing my professional journey up until the creation of this portfolio. The site also includes a "Contact Me" section as well as a navigation bar at the top of the site that includes a link my most updated resume. 
@@ -16,7 +20,9 @@ The programming languages used in this homework were html and css.
 
 ## **Important Code Snippets**
 
-The responsive flexbox grid layout was an important aspect to this portfolio. 
+The responsive flexbox grid layout was an important aspect to this portfolio. See below what the grid layout looks like. 
+
+![screenshot](./assets/images/grid-screenshot.PNG "Grid Layout")
 
 The below code set up the framework of the gridlayout that was created for the "My projects" section of the site. Above a screen size of 768px, the visitor will find 5 images that act as hyperlinks to some of my projects. The grid was comprised of 3 columns. The first column had 1 row and the next 2 columns had 2 rows each in order to create this even grid layout. 
 
